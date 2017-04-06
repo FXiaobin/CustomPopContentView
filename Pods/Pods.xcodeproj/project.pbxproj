@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308BEA0A6BE086212EECC17A26204A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		348DBC5332E2D497344CE952D9301DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		37C219FFE6369F4481F47E583238B2CA /* KLCPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC087CA1F3A53223DE70D8FCB95B6B /* KLCPopup-dummy.m */; };
+		45DE697C55EF24C7D7AFEDC09B9553BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		947E1C967D6EDDAF8F678931C96DDF66 /* Pods-CustomPopContentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8802FE6F0196A9C5CA77F33F9F35F6 /* Pods-CustomPopContentView-dummy.m */; };
+		EF67F73B5EB69A1570DC54342CE3C167 /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439B256D83CDD8AA4C526748F6BB2FE /* KLCPopup.m */; };
+		F5509ECBD6FA4D57B18E67989526557D /* KLCPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6AF92FBE43D94869824F5942D4B7F3 /* KLCPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56390F0862FCA877AE93B20FDE338E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC730AEEC63209209D4BF5D7BF4B8BF4;
+			remoteInfo = KLCPopup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BEBE50B5DF6A00B644312BDDA5ED61 /* Pods-CustomPopContentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomPopContentView.release.xcconfig"; sourceTree = "<group>"; };
+		13A3827EA041AF7C7A7101B6E04B1C12 /* KLCPopup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLCPopup.xcconfig; sourceTree = "<group>"; };
+		1E6AF92FBE43D94869824F5942D4B7F3 /* KLCPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLCPopup.h; path = KLCPopup/KLCPopup.h; sourceTree = "<group>"; };
+		24153CDE6B98314B2706A59A3C737E4C /* Pods-CustomPopContentView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomPopContentView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		364958DA2238053E6F88FE8FBE2EA071 /* Pods-CustomPopContentView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomPopContentView-acknowledgements.plist"; sourceTree = "<group>"; };
+		4439B256D83CDD8AA4C526748F6BB2FE /* KLCPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLCPopup.m; path = KLCPopup/KLCPopup.m; sourceTree = "<group>"; };
+		527F44DE552A4BD631DA8E328C5FAC22 /* libKLCPopup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKLCPopup.a; path = libKLCPopup.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0EB9CB4A2A99BE827662439DEDD9B0 /* Pods-CustomPopContentView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomPopContentView-resources.sh"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39602F9B0924858F88E7EDA7895988C /* KLCPopup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLCPopup-prefix.pch"; sourceTree = "<group>"; };
+		D0F46AE26097092DDCBF4DB7726B03A7 /* Pods-CustomPopContentView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomPopContentView-frameworks.sh"; sourceTree = "<group>"; };
+		DE8802FE6F0196A9C5CA77F33F9F35F6 /* Pods-CustomPopContentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomPopContentView-dummy.m"; sourceTree = "<group>"; };
+		EED0FDFAD174DD468EF2E75E416A9714 /* libPods-CustomPopContentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CustomPopContentView.a"; path = "libPods-CustomPopContentView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A7036063F51457EE588215CE3F217F /* Pods-CustomPopContentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomPopContentView.debug.xcconfig"; sourceTree = "<group>"; };
+		FFAC087CA1F3A53223DE70D8FCB95B6B /* KLCPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLCPopup-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7EBC60952A6EBFBA1738E6B7FECEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308BEA0A6BE086212EECC17A26204A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D436E15755A79B2B0A0A1FC20447EC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DE697C55EF24C7D7AFEDC09B9553BB /* Foundation.framework in Frameworks */,
+				348DBC5332E2D497344CE952D9301DCB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3ACC49EB40C4014B72F2F4375F9C7C /* Pods-CustomPopContentView */ = {
+			isa = PBXGroup;
+			children = (
+				24153CDE6B98314B2706A59A3C737E4C /* Pods-CustomPopContentView-acknowledgements.markdown */,
+				364958DA2238053E6F88FE8FBE2EA071 /* Pods-CustomPopContentView-acknowledgements.plist */,
+				DE8802FE6F0196A9C5CA77F33F9F35F6 /* Pods-CustomPopContentView-dummy.m */,
+				D0F46AE26097092DDCBF4DB7726B03A7 /* Pods-CustomPopContentView-frameworks.sh */,
+				5A0EB9CB4A2A99BE827662439DEDD9B0 /* Pods-CustomPopContentView-resources.sh */,
+				F6A7036063F51457EE588215CE3F217F /* Pods-CustomPopContentView.debug.xcconfig */,
+				07BEBE50B5DF6A00B644312BDDA5ED61 /* Pods-CustomPopContentView.release.xcconfig */,
+			);
+			name = "Pods-CustomPopContentView";
+			path = "Target Support Files/Pods-CustomPopContentView";
+			sourceTree = "<group>";
+		};
+		4166975CE2F0B047E46E3DFFCD2510E8 /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				1E6AF92FBE43D94869824F5942D4B7F3 /* KLCPopup.h */,
+				4439B256D83CDD8AA4C526748F6BB2FE /* KLCPopup.m */,
+				6219C047FF26F31BC6BCFB545BCED567 /* Support Files */,
+			);
+			name = KLCPopup;
+			path = KLCPopup;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6219C047FF26F31BC6BCFB545BCED567 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A3827EA041AF7C7A7101B6E04B1C12 /* KLCPopup.xcconfig */,
+				FFAC087CA1F3A53223DE70D8FCB95B6B /* KLCPopup-dummy.m */,
+				B39602F9B0924858F88E7EDA7895988C /* KLCPopup-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KLCPopup";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				93C33F6B8DCF6BED367C6BFFEFAD9A9B /* Pods */,
+				E6615D5225C638194725F52B23FBD5C2 /* Products */,
+				90E49D442992A6149D7B005CC208AD1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90E49D442992A6149D7B005CC208AD1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3ACC49EB40C4014B72F2F4375F9C7C /* Pods-CustomPopContentView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93C33F6B8DCF6BED367C6BFFEFAD9A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4166975CE2F0B047E46E3DFFCD2510E8 /* KLCPopup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6615D5225C638194725F52B23FBD5C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527F44DE552A4BD631DA8E328C5FAC22 /* libKLCPopup.a */,
+				EED0FDFAD174DD468EF2E75E416A9714 /* libPods-CustomPopContentView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17FE8CFD0C527C75474F134482779006 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5509ECBD6FA4D57B18E67989526557D /* KLCPopup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27CCEB8B56F0DE2C23D5BF0865002D19 /* Pods-CustomPopContentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4DD6629704C4431C7458B1E599D10E /* Build configuration list for PBXNativeTarget "Pods-CustomPopContentView" */;
+			buildPhases = (
+				30D620C731A951E8F7DB2FB5BC37CBD0 /* Sources */,
+				6C7EBC60952A6EBFBA1738E6B7FECEF8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564C18067E5CBC513E5F2A8CEFECA216 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomPopContentView";
+			productName = "Pods-CustomPopContentView";
+			productReference = EED0FDFAD174DD468EF2E75E416A9714 /* libPods-CustomPopContentView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC730AEEC63209209D4BF5D7BF4B8BF4 /* KLCPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF7228A0917BC7586513124FDD45020 /* Build configuration list for PBXNativeTarget "KLCPopup" */;
+			buildPhases = (
+				4FD7C3177DAA664E754430370D6605A0 /* Sources */,
+				D436E15755A79B2B0A0A1FC20447EC03 /* Frameworks */,
+				17FE8CFD0C527C75474F134482779006 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLCPopup;
+			productName = KLCPopup;
+			productReference = 527F44DE552A4BD631DA8E328C5FAC22 /* libKLCPopup.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6615D5225C638194725F52B23FBD5C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC730AEEC63209209D4BF5D7BF4B8BF4 /* KLCPopup */,
+				27CCEB8B56F0DE2C23D5BF0865002D19 /* Pods-CustomPopContentView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D620C731A951E8F7DB2FB5BC37CBD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947E1C967D6EDDAF8F678931C96DDF66 /* Pods-CustomPopContentView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD7C3177DAA664E754430370D6605A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C219FFE6369F4481F47E583238B2CA /* KLCPopup-dummy.m in Sources */,
+				EF67F73B5EB69A1570DC54342CE3C167 /* KLCPopup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564C18067E5CBC513E5F2A8CEFECA216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KLCPopup;
+			target = BC730AEEC63209209D4BF5D7BF4B8BF4 /* KLCPopup */;
+			targetProxy = A56390F0862FCA877AE93B20FDE338E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F5B1A2F302056108B71DEDD7E157AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A7036063F51457EE588215CE3F217F /* Pods-CustomPopContentView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6EFAA40AD1AB6C86ED4B58ED53D857E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A3827EA041AF7C7A7101B6E04B1C12 /* KLCPopup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KLCPopup/KLCPopup-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8FA94AEF83ADF8C90383FEFA860BCE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BEBE50B5DF6A00B644312BDDA5ED61 /* Pods-CustomPopContentView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D550B1492351C11AD1972E0B8203FF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A3827EA041AF7C7A7101B6E04B1C12 /* KLCPopup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KLCPopup/KLCPopup-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF7228A0917BC7586513124FDD45020 /* Build configuration list for PBXNativeTarget "KLCPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFAA40AD1AB6C86ED4B58ED53D857E9 /* Debug */,
+				D550B1492351C11AD1972E0B8203FF6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4DD6629704C4431C7458B1E599D10E /* Build configuration list for PBXNativeTarget "Pods-CustomPopContentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5B1A2F302056108B71DEDD7E157AE /* Debug */,
+				8FA94AEF83ADF8C90383FEFA860BCE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
